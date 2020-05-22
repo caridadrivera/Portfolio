@@ -101,8 +101,9 @@ body {
  
  .nav-link {
    font-family: 'The Historia Demo', sans-serif;
-   font-size: 5rem;
+   font-size: 2.5rem;
    padding: 1rem;
+   color: grey;
  }
  
  .nav-link:hover,
