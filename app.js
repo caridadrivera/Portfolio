@@ -1,3 +1,5 @@
+window.addEventListener('load', AOS.init())
+
 class TypeWriter {
     constructor(txtElement, words, wait = 3000) {
       this.txtElement = txtElement;
@@ -56,8 +58,10 @@ class TypeWriter {
   // Init On DOM Load
   document.addEventListener('DOMContentLoaded', init);
   
+  
   // Init App
   function init() {
+   
     const txtElement = document.querySelector('.text-type');
     const words = JSON.parse(txtElement.getAttribute('data-words'));
     const wait = txtElement.getAttribute('data-wait');
