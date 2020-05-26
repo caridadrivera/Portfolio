@@ -17,6 +17,9 @@ body {
     padding: 0;
     box-sizing: border-box;
   }
+
+
+
  
  
  
@@ -182,7 +185,10 @@ body {
  
  
  
- 
+ a {
+  text-decoration: none;
+  color: #380808;
+ }
  
  
  
@@ -412,11 +418,7 @@ body {
   section {
     padding: 6rem 0;
   }
- 
- a {
-   text-decoration: none;
-   color: #eee;
- }
+
  
  p {
    margin-top: 10px;
@@ -588,7 +590,7 @@ body {
    }
  
    .content h6{
-     font-size: 1.4rem;
+     font-ize: 1.4rem;
    }
  
    .nav-link{
