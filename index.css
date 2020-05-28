@@ -130,19 +130,28 @@ body {
  }
  
  
- .content h1 {
+ .name-intro {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
    font-size: 8rem;
    font-family: 'Knewave';
    color: #cf844c;
-   padding: 2rem;
+   padding: 4rem;
+   margin-top: 8rem;
    user-select: none;
  }
  
  
  .content h6 {
+   
    font-size: 2rem;
    font-weight: 300;
    color: black;
+ }
+ h6 {
+   margin-top: 3rem;
  }
  
  .content.container {
